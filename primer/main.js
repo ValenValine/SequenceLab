@@ -1,6 +1,5 @@
 oligoSequence = document.getElementById("oligo").value
-cCount = (oligoSequence.match(/c/g) || []).length;
-gCount = (oligoSequence.match(/g/g) || []).length;
+
 
 
 function measureLength(oligoSequence){
@@ -32,17 +31,18 @@ function reverseComplementOligo(oligoSequence){
 
 function calculateGCPercentage(oligoSequence){
     oligoSequence = document.getElementById("oligo").value
-    cCount = (oligoSequence.match(/c/g) || []).length;
-    gCount = (oligoSequence.match(/g/g) || []).length;
-    oligoLength = oligoSequence.length;
+    oligoSequenceSameCase = oligoSequence.toUpperCase()
+    cCount = (oligoSequenceSameCase.match(/C/g) || []).length;
+    gCount = (oligoSequenceSameCase.match(/G/g) || []).length;
+    oligoLength = oligoSequenceSameCase.length;
     percentGC = ((cCount+gCount)/oligoLength*100).toFixed(1);
     return percentGC
 }
 
 function calculateTM(oligoSequence){
     oligoSequence = document.getElementById("oligo").value
-    cCount = (oligoSequence.match(/c/g) || []).length;
-    gCount = (oligoSequence.match(/g/g) || []).length;
+    cCount = (oligoSequence.match(/C/g) || []).length;
+    gCount = (oligoSequence.match(/G/g) || []).length;
     TM = ((cCount + gCount)*4) + (((oligoSequence.length)-cCount-gCount)*2);
     return TM
 }
