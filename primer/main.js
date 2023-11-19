@@ -47,8 +47,15 @@ function calculateTM(oligoSequence){
     return TM
 }
 
-function onClick(){
-    fillValues()
+function capitalizeSequence(oligoSequence){
+    oligoSequence = document.getElementById("oligo").value
+    oligoSequenceSameCase = oligoSequence.toUpperCase()
+    return oligoSequenceSameCase
+}
+
+
+function capitalize(){
+    document.getElementById("oligo").value = capitalizeSequence(oligoSequence)
 }
 
 function fillValues(){
