@@ -1,38 +1,38 @@
-dnaSequence = document.getElementById("dna").value;
+rnaSequence = document.getElementById("rna").value;
 
-function dnaToRna(dnaSequence){
-    dnaSequence = document.getElementById("dna").value
-    dnaSequenceSameCase = dnaSequence.toUpperCase()
-    splitSequence = dnaSequenceSameCase.split("");
-    rnaSequence = []
+function rnaToDna(rnaSequence){
+    rnaSequence = document.getElementById("rna").value
+    rnaSequenceSameCase = rnaSequence.toUpperCase()
+    splitSequence = rnaSequenceSameCase.split("");
+    dnaSequence = []
     for (let i = 0; i < splitSequence.length; i++){
         if (splitSequence[i] == "A"){
-            rnaSequence.push("A")
-        } else if (splitSequence[i] == "T"){
-            rnaSequence.push("U")
+            dnaSequence.push("A")
+        } else if (splitSequence[i] == "U"){
+            dnaSequence.push("T")
         } else if (splitSequence[i] == "G"){
-            rnaSequence.push("G")
+            dnaSequence.push("G")
         } else if (splitSequence[i] == "C"){
-            rnaSequence.push("C")
+            dnaSequence.push("C")
         }
     }
-    joinSequence = rnaSequence.join("");
+    joinSequence = dnaSequence.join("");
     return joinSequence
 }
 
 function capitalizeSequence(dnaSequence){
-    dnaSequence = document.getElementById("dna").value
-    dnaSequenceSameCase = dnaSequence.toUpperCase()
-    return dnaSequenceSameCase
+    rnaSequence = document.getElementById("rna").value
+    rnaSequenceSameCase = rnaSequence.toUpperCase()
+    return rnaSequenceSameCase
 }
 
 
 function onClick(){
-    document.getElementById("dna").value = capitalizeSequence(dnaSequence)
+    document.getElementById("rna").value = capitalizeSequence(rnaSequence)
 }
 
 function fillValues(){
-    document.getElementById("rna").value = dnaToRna(dnaSequence);
+    document.getElementById("dna").value = rnaToDna(rnaSequence);
     
 }
 
