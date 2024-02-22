@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-
-
-
 body {
     height: 100vh;
     overflow: hidden;
@@ -12,12 +9,10 @@ body {
     margin: 5px 0px;
 }
 
-
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
 }
-
 
 .navbar {
     display: flex;
@@ -27,26 +22,27 @@ body{
 }
 
 label {
-    display: inline-block;
     width: 270px;
-    margin-left: 10%;
 }
 
 input {
-    display: inline-block;
     border: 0.5px solid #ddd;
-    width: 250px;
+    width: 350px;
     padding: 5px;
     margin-top: 8px;
-    
+}
+
+.containerTextBox {
+    display: flex;
+    flex-direction: column;
 }
 
 .containerAll {
     display: flex;
     justify-content: center;
     padding-top: 40px;
-    padding-left: 5%;
-    padding-right:5%;
+    padding-left: 10%;
+    padding-right:10%;
 }
 
 .containerButton{
@@ -55,6 +51,7 @@ input {
     align-content:center;
     height:auto;
     padding-right:5%;
+    padding-left: 5%;
     margin-top:8px;
 }
 
