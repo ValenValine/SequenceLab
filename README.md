@@ -43,9 +43,11 @@ Output:
 ## DNA to RNA Conversion
 
 Input:
+
     DNA sequence: ATGCATGCATGC
 
 Output:
+
     RNA sequence: AUGCAUGCAUGC
 
 
