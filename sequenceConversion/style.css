@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    display : flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+    margin: 5px 0px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+label {
+    width: 270px;
+}
+
+input {
+    border: 0.5px solid #ddd;
+    width: 300px;
+    padding: 5px;
+    margin-top: 8px;  
+}
+
+.containerAll {
+    display: flex;
+    justify-content: center;
+    padding: 40px 5%;
+}
+
+.containerTextBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.containerButton{
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    height:auto;
+    padding-right:5%;
+    padding-left: 5%;
+    margin-top:8px;
+}
+
+.toDNALink {
+    display: flex;
+    justify-content: center;
+}
