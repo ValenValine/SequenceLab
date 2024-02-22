@@ -1,6 +1,6 @@
 **Sequence Lab**
 
-SequenceLab is a web application designed to assist molecular biologists in various tasks related to genetic sequence analysis and manipulation. This toolkit offers features such as primer design, DNA to RNA conversion, and sequence format conversion.
+[SequenceLab](https://valenvaline.github.io/SequenceLab/)is a web application designed to assist molecular biologists in various tasks related to genetic sequence analysis and manipulation. This toolkit offers features such as primer design, DNA to RNA conversion, and sequence format conversion.
 
 **Features:**
 
@@ -55,3 +55,6 @@ Output:
 For support or inquiries, please contact valencia@unist.ac.kr
 
 Contributions to the SequenceLab are welcome! If you encounter any issues or have suggestions for improvements, please submit a GitHub issue or pull request to the GitHub repository.
+
+
+the site is live at: https://valenvaline.github.io/SequenceLab/
