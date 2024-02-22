@@ -2,19 +2,19 @@
 
 [SequenceLab](https://valenvaline.github.io/SequenceLab/) is a web application designed to assist molecular biologists in various tasks related to genetic sequence analysis and manipulation. This toolkit offers features such as primer design and sequence (DNA to RNA, RNA to DNA) conversion.
 
-**Features:**
+## Features:
 
     Design primers for PCR, qPCR, sequencing, and other molecular biology experiments.
     Convert DNA sequences to RNA sequences and vice versa.
     Interactive user interface for easy input of sequences and parameters.
     Visual representation of sequence properties and transformations.
 
-**Installation**
+## Installation
 
-SequenceLab is a web-based application and can be accessed through any modern web browser. No installation is required.
+[SequenceLab](https://valenvaline.github.io/SequenceLab/) is a web-based application and can be accessed through any modern web browser. No installation is required.
 
 
-**Usage**
+## Usage
 
     Navigate to the SequenceLab website.
     Select the desired feature from the menu (e.g., Primer Design, Sequence Conversion).
@@ -22,9 +22,9 @@ SequenceLab is a web-based application and can be accessed through any modern we
     Click the appropriate button to execute the selected feature.
     Review the results.
 
-**Examples**
+## Examples
 
-**Primer Design**
+## Primer Design
 
 Input:
 
@@ -40,33 +40,26 @@ Output:
 
 
 
-**DNA to RNA Conversion**
+## DNA to RNA Conversion
 
 Input:
-
     DNA sequence: ATGCATGCATGC
 
 Output:
-
     RNA sequence: AUGCAUGCAUGC
 
 
-**RNA to DNA Conversion**
+## RNA to DNA Conversion
 
 Input:
-
     RNA sequence: AUGCAUGCAUGC
 
 Output:
-
     DNA sequence: ATGCATGCATGC
 
     
-**Support and Contributions**
+## Support and Contributions
 
 For support or inquiries, please contact valencia@unist.ac.kr
 
 Contributions to the SequenceLab are welcome! If you encounter any issues or have suggestions for improvements, please submit a GitHub issue or pull request to the GitHub repository.
-
-
-the site is live at: https://valenvaline.github.io/SequenceLab/
