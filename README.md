@@ -1,4 +1,4 @@
-#SequenceLab
+**Sequence Lab**
 
 SequenceLab is a web application designed to assist molecular biologists in various tasks related to genetic sequence analysis and manipulation. This toolkit offers features such as primer design, DNA to RNA conversion, and sequence format conversion.
 
