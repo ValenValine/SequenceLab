@@ -1,6 +1,6 @@
-**Sequence Lab**
+## SequenceLab
 
-SequenceLab is a web application designed to assist molecular biologists in various tasks related to genetic sequence analysis and manipulation. This toolkit offers features such as primer design, DNA to RNA conversion, and sequence format conversion.
+[SequenceLab](https://valenvaline.github.io/SequenceLab/) is a web application designed to assist molecular biologists in various tasks related to genetic sequence analysis and manipulation. This toolkit offers features such as primer design and sequence (DNA to RNA, RNA to DNA) conversion.
 
 **Features:**
 
@@ -32,9 +32,9 @@ Input:
 
 Output:
 
-    Oligo length: 18-22 nucleotides
-    Melting temperature (Tm): 50-60°C
-    GC content: 40-60%
+    Oligo length: 12 nucleotides
+    Melting temperature (Tm): 36°C
+    GC content: 50%
     Reverse Primer: GCATGCATGCAT
 
 
@@ -47,11 +47,25 @@ Input:
 
 Output:
 
-    RNA sequence: AUGCUGCAUGCA
+    RNA sequence: AUGCAUGCAUGC
 
 
+**RNA to DNA Conversion**
+
+Input:
+
+    RNA sequence: AUGCAUGCAUGC
+
+Output:
+
+    DNA sequence: ATGCATGCATGC
+
+    
 **Support and Contributions**
 
 For support or inquiries, please contact valencia@unist.ac.kr
 
 Contributions to the SequenceLab are welcome! If you encounter any issues or have suggestions for improvements, please submit a GitHub issue or pull request to the GitHub repository.
+
+
+the site is live at: https://valenvaline.github.io/SequenceLab/
